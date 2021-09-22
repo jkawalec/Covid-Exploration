@@ -5,4 +5,5 @@ I explored Covid data in SQL. I looked at the deaths and death rates for differe
 
 ### Requirements
 I used Microsoft SQL server.
+
 Covid Dataset used: https://ourworldindata.org/covid-deaths
