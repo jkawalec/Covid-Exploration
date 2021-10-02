@@ -1,13 +1,54 @@
-### Covid-Project
+![Logo](https://uhs.umich.edu//files/uhs/field/image/outbreak-coronavirus-world-Square.jpg)
 
-I explored Covid data in SQL. I looked at the deaths and death rates for different places around the world. I also looked at the Vaccination statuses around the world.
-The goal of this project was to explore this Covid dataset to find interesting information about it. I wanted to learn what affect the Vaccine status has on the death counts 
-for the countries. I was also interested to see what affect population had on cases and deaths for each location.
+    
+# Covid Exploration With SQL
+
+In this project, We are going to perform exploratory data analysis of the COVID dataset.
 
 
-### Requirements
-Can Download the Microsoft SQL Server that I used here: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+## Authors
 
-Can Download the Covid Dataset I used here: https://ourworldindata.org/covid-deaths
+- [@jkawalec](https://www.github.com/jkawalec)
 
+  
+## Installation
+
+Used Microsoft SQL Server for this entire project
+
+
+Install Microsoft SQL Server at: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+Download an updated Dataset at: https://ourworldindata.org/covid-deaths
+
+SQL Server Project File: https://github.com/jkawalec/Covid-Project/blob/main/covid_exploration.sql
+
+
+## Dataset Information
+
+I edited my dataset in Excel prior to uploading it into SQL Server. I seperated the original dataset into two seperate Excel files. Those files are included in this project. 
+
+  
+## Usage
+
+
+
+Use this project as to begin exploring this covid dataset. Using SQL to furthermore explore and analyze this dataset.
+
+
+
+```javascript
+Select Location, date, total_deaths, total_cases, population
+from [portfolio project]..['covid deaths$']
+Order by 1,2
+```
+
+
+
+
+```javascript
+Select Location, date, total_deaths, total_cases, population
+from [portfolio project]..['covid deaths$']
+Order by 1,2
+```
+  
 
